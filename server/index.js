@@ -1,12 +1,12 @@
+import Connection from './database/db.js';
+import DefaultData from './default.js';
+import Routes from './routes/route.js';
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { v4 as uuid } from 'uuid';
-
-import Connection from './database/db.js';
-import DefaultData from './default.js';
-import Routes from './routes/route.js';
 
 
 dotenv.config();
